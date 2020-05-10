@@ -1,0 +1,80 @@
+San-Francisco Business Inspection: A Use Case of Food inspection
+by Scott W. Davis
+In this report we will explore and analyze a dataset collected about San-Francisco businesses
+inspections. I have applied most of the stages of the data science methodology that I have studied
+in this specialization. This project will introduce a business inspection predictive analytics report
+that can help promote business safety and for example food business as part of the many processes
+put to prevent food-borne illness. Some of these processes include proper handling of food, proper
+preparation of food and its storage. Food inspection ensures that all these processes are done in
+such as a manner as to promote and achieve food safety.
+Food inspection involves not only sampling and testing of end products but also assessing food
+centers to ensure compliance with food safety management systems. This minimizes the
+occurrence of public health food safety problems. Food inspection dates back to ancient times as
+part of the history of public health. The Food and Drug Administration (FDA) publishes the Food
+Code that sets guidelines and procedures to assist in food control jurisdictions. The Food Code
+provides a scientifically and legally backed basis for regulating the retail and food service
+industries. These include restaurants, grocery stores and institutional food service providers e.g.
+nursing homes. In the past, food inspection was done in a reactive manner whereby officers waited
+for reports of joints with possible non-compliance. However, it has been shown through research
+that food inspection should be done in a more proactive manner. Currently, some cities in the
+united states e.g. San Francisco are implementing a technologically driven approach to food 
+inspection to try and predict food establishments that are more likely to be non-compliant to food
+safety regulation. This is driven in part by the low Inspector to Food place ratio making it difficult
+to efficiently inspect all the food places. We will use Foursquare which comes with venue data that
+contains key descriptors of different venues including the category and popularity. This will show
+categories such as Nursing homes and food establishments along with attributes like name, address,
+ratings, and reviews from millions of points of interest. This report would be beneficial to public
+health specialists and every stakeholder working to alleviate public health concerns through
+preventive measures. The solution is not to introduce food inspection since these professionals are
+already carrying out food inspections in the relevant jurisdictions but to make the process more
+efficient.
+In San-Francisco, it is estimated that one business inspector needs to efficiently inspect more than
+500 business establishments given that there are only about 4 dozen inspectors to cover all business
+establishments. It is in waking of this statistic that the city saw an opportunity to make the process
+of food inspection more efficient by utilizing data analytics. In San-Francisco, through the
+Department of Public Health, systematically collected food inspection data from close to 100,000
+sanitation inspections. Using this data, together with metadata on weather, related complaints e.g.
+sanitation, business characteristics, the city’s advanced analytics team helped predict the food
+establishments that are more likely to violate food safety regulations. The food inspectors can then
+have a “Critical first” inspection approach where the places that have been predicted to have critical
+violations are inspected first.
+Some of the factors that tend to predict critical violation include previous critical violations, high
+temperatures, nearby sanitation complains, nearby burglaries etc 
+This report would be beneficial to public health specialists and every stakeholder working to
+alleviate public health concerns through preventive measures. It is not to introduce food inspection
+since these professionals are already carrying out food inspections in the relevant jurisdictions but
+to make the process more efficient.
+Data Description
+In this section I will the data that will be used to analyze the problem of food inspection and the
+source of the data. In order to develop a sufficient prediction system, the data should have the
+following categories:
+• Weather Data- In public health, the weather is a key component. Long rains are associated
+with flooding which predisposes to contamination of food with waterborne microbes.
+• Crime Data- Higher crime rates have been strongly correlated with poverty due to lack of
+employment. Poverty has been in turn correlated with low hygiene which tends to predict
+the occurrence of critical violations of food safety regulations.
+• Places Data-To help locate food establishments for inspection, there needs to be a way to
+pinpoint exactly where they are situated and preferably show it on a map. There are
+different sources of places data each which its set of strength and weakness.
+• Inspection Data- Inspection data contains information such as previous the history of
+critical violations, type of facility, whether the establishment has a tobacco license and the
+length of time the establishment has been operating.
+• Water and Sanitation data- Garbage and sanitation complaints can be used, together with
+other data, to try and predict critical violations. A place with frequent sanitation complaints
+is more likely to have a joint with critical violations as compared to another without any
+complaint.
+• Demographics data- Demographics especially health demographics contain data about
+people living around a place including the age, sex, estimated income, occupation, recent
+infections all of which can be carefully correlated and used to predict a critical violation.
+However, the data I have found is collected from (https://data.sfgov.org/Health-andSocialServices/Restaurant-Scores-LIVES-Standard/pyih-qa8i). The Health Department has
+developed an inspection report and scoring system. After conducting an inspection of the facility,
+the Health Inspector calculates a score based on the violations observed. Violations can fall into:
+• High risk category: records specific violations that directly relate to the transmission of
+food borne illnesses, the adulteration of food products and the contamination of
+foodcontact surfaces.
+• Moderate risk category: records specific violations that are of a moderate risk to the
+public health and safety.
+• Low risk category: records violations that are low risk or have no immediate risk to the
+public health and safety.
+The score card that will be issued by the inspector is maintained at the food establishment and
+is available to the public in this dataset. 
